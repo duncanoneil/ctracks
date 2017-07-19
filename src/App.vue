@@ -2,11 +2,11 @@
   <v-app light>
    <v-navigation-drawer v-model="sideNav">
      <v-list>
-       <v-list-tile>
+       <v-list-tile v-for="item in menuItems" :key="item.title">
          <v-list-tile-action>
-           <v-icon>supervisor_account</v-icon>
+           <v-icon>{{ item.icon }}</v-icon>
          </v-list-tile-action>
-         <v-list-tile-content>About</v-list-tile-content>
+         <v-list-tile-content>{{ item.title }}</v-list-tile-content>
        </v-list-tile>
      </v-list>
     </v-navigation-drawer>
@@ -17,11 +17,9 @@
       <v-toolbar-title>Community Tracks Inverclyde</v-toolbar-title>
       <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-xs-only">
-          <v-btn flat>
-            <v-icon dark left>supervisor_account</v-icon>
-            About
-          </v-btn>
-          <v-btn flat>Contact</v-btn>
+          <v-btn flat v-for="item in menuItems" :key="item.title">
+            <v-icon dark left>{{ item.icon }}</v-icon>
+         {{ item.title }}</v-btn>
         </v-toolbar-items>
     </v-toolbar>
     <main>
@@ -35,7 +33,11 @@
   export default {
     data () {
       return {
-          sideNav: false
+          sideNav: false,
+        menuItems: [
+          { icon: 'live_help', title: 'About'},
+          { icon: 'contact_mail', title: 'Contact'}
+        ]
       }
     }
   }
