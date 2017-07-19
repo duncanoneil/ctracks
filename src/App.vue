@@ -10,7 +10,7 @@
        </v-list-tile>
      </v-list>
     </v-navigation-drawer>
-    <v-toolbar>
+    <v-toolbar dark class="primary">
       <v-toolbar-side-icon
         @click.native.stop="sideNav = !sideNav"
         class="hidden-sm-and-up"></v-toolbar-side-icon>
@@ -18,7 +18,7 @@
       <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-xs-only">
           <v-btn flat>
-            <v-icon left>supervisor_account</v-icon>
+            <v-icon dark left>supervisor_account</v-icon>
             About
           </v-btn>
           <v-btn flat>Contact</v-btn>
