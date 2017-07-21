@@ -1,10 +1,10 @@
 <template>
   <v-container>
-    <v-layout row wrap>
-      <v-flex xs12 sm6 class="text-sm-right">
+    <v-layout row wrap class="mb-2">
+      <v-flex xs12 sm6 class="text-xs-center text-sm-right">
         <v-btn large dark class="accent">News</v-btn>
       </v-flex>
-      <v-flex xs12 sm6 class="text-sm-left">
+      <v-flex xs12 sm6 class="text-xs-center text-sm-left">
         <v-btn large dark class="accent">Events</v-btn>
       </v-flex>
     </v-layout>
@@ -15,6 +15,7 @@
             v-for="(item,i) in items"
             :src="item.imageUrl"
             :key="item.id">
+            <div class="title">{{ item.title }}</div>
           </v-carousel-item>
         </v-carousel>
       </v-flex>
@@ -41,21 +42,12 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  h1, h2 {
-    font-weight: normal;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-  a {
-    color: #42b983;
+  .title{
+    position: absolute;
+    bottom: 50px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 2em;
+    padding: 20px;
   }
 </style>
