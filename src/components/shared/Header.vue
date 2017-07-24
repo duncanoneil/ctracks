@@ -30,6 +30,17 @@
         <v-icon dark left>{{ item.icon }}</v-icon>
         {{ item.title }}</v-btn>
     </v-toolbar-items>
+    <div class="text-xs-right">
+      <v-menu open-on-hover dark class="primary">
+        <v-btn primary dark slot="activator">What we do</v-btn>
+        <v-list>
+          <v-list-tile v-for="drop_item in drop_items" :key="drop_item.title">
+            <v-list-tile-title  :to="drop_item.link">{{ drop_item.title }}</v-list-tile-title>
+          </v-list-tile>
+        </v-list>
+      </v-menu>
+    </div>
+
   </v-toolbar>
   </div>
 </template>
@@ -42,7 +53,12 @@
         menuItems: [
           { icon: 'live_help', title: 'About', link: '/about'},
           { icon: 'contact_mail', title: 'Contact', link: '/contact'}
-        ]
+        ],
+        drop_items: [
+          { icon: 'live_help', title: 'Bike Workshop', link: '/about'},
+          { icon: 'contact_mail', title: 'Guided Rides', link: '/contact'}
+        ],
+
       }
     }
   }

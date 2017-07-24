@@ -1,16 +1,12 @@
 <template>
   <v-container>
-    <v-layout row wrap class="mb-2">
-      <v-flex xs12 sm6 class="text-xs-center text-sm-right">
-        <v-btn large dark class="accent">News</v-btn>
-      </v-flex>
-      <v-flex xs12 sm6 class="text-xs-center text-sm-left">
-        <v-btn large dark class="accent">Events</v-btn>
-      </v-flex>
-    </v-layout>
     <v-layout row wrap>
-      <v-flex xs12>
-        <v-carousel>
+      <v-flex xs9>
+        <app-map></app-map>
+      </v-flex>
+
+      <v-flex xs3>
+        <v-carousel text-xs-right>
           <v-carousel-item
             v-for="(item,i) in items"
             :src="item.imageUrl"
@@ -24,7 +20,11 @@
 </template>
 
 <script>
+  import Map from './map/Map.vue';
   export default {
+    components: {
+      'app-map': Map
+    },
     data () {
       return {
         items: [
