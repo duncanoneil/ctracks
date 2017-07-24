@@ -1,9 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Front from '@/components/Front'
-import About from '@/components/About'
-import Contact from '@/components/Contact'
-import Home from '@/components/Home'
+import Front from '@/components/pages/Front'
+import About from '@/components/pages/About'
+import Contact from '@/components/pages/Contact'
 
 
 Vue.use(Router)
@@ -13,8 +12,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: Home
+      name: 'Front',
+      component: Front
     },
     {
       path: '/about',
@@ -25,12 +24,6 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
-    },
-    {
-      path: '/front',
-      name: 'Front',
-      component: Front
     }
-
   ]
 })
