@@ -18,7 +18,7 @@
       @click.stop="sideNav = !sideNav"
       class="hidden-sm-and-up"></v-toolbar-side-icon>
     <v-toolbar-title>
-      <router-link to="/" tag="span" style="cursor: pointer">Community Tracks Inverclyde</router-link>
+      <router-link to="/" tag="span" style="cursor: pointer"><img hidden-md-and-down :src="require('./ct_logo.png')" /></router-link>
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-xs-only">
@@ -34,8 +34,8 @@
       <v-menu open-on-hover dark class="primary">
         <v-btn primary dark slot="activator">What we do</v-btn>
         <v-list>
-          <v-list-tile v-for="drop_item in drop_items" :key="drop_item.title">
-            <v-list-tile-title  :to="drop_item.link">{{ drop_item.title }}</v-list-tile-title>
+          <v-list-tile v-for="drop_item in drop_items" :key="drop_item.title" :to="drop_item.link">
+            <v-list-tile-title>{{ drop_item.title }}</v-list-tile-title>
           </v-list-tile>
         </v-list>
       </v-menu>
@@ -55,8 +55,9 @@
           { icon: 'contact_mail', title: 'Contact', link: '/contact'}
         ],
         drop_items: [
-          { icon: 'live_help', title: 'Bike Workshop', link: '/about'},
-          { icon: 'contact_mail', title: 'Guided Rides', link: '/contact'}
+          { title: 'Bike Workshop', link: '/about'},
+          { title: 'Guided Rides', link: '/contact'},
+          { title: 'Activities', link: '/activities'}
         ],
 
       }

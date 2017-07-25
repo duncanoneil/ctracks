@@ -10,18 +10,21 @@
     mounted: function () {
       console.log("map: ", google.maps)
       this.map = new google.maps.Map(document.getElementById('map_canvas2'), {
-        center: {lat: 61.180059, lng: -149.822075},
+        center: {lat:  55.922655, lng: -4.744502},
         scrollwheel: false,
-        zoom: 4
+        zoom: 12
       })
+
     }
   }
+
 
 </script>
 
 <style scoped>
   #map_canvas2{
-    width: 100%;
-    height: 500px;
-    border: 1px solid black;
-  }</style>
+    width: 95%;
+    height: 450px;
+  }
+
+</style>
