@@ -10,6 +10,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "es6-promise": "^4.1.1",
+    "google-maps": "^3.2.1",
     "material-design-icons": "^3.0.1",
     "vue": "^2.4.1",
     "vue-google-maps": "^0.1.21",

@@ -4,9 +4,12 @@ import Vue from 'vue'
 import Vuetify from 'vuetify'
 import App from './App'
 import router from './router'
+import 'es6-promise/auto'
+
 
 Vue.use(Vuetify)
 Vue.config.productionTip = false
+
 
 /* eslint-disable no-new */
 new Vue({
