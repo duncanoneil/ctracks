@@ -6,9 +6,10 @@
   export default {
     methods: {
       initMap (google) {
-        var myLatlng = new google.maps.LatLng(40.748817, -73.985428)
+        var myLatlng = new google.maps.LatLng(55.922655, -4.744502)
+        var src = 'https://s3.eu-west-2.amazonaws.com/comtracks/Gourock+to+Inverkip+cycle.kmz';
         var mapOptions = {
-          zoom: 13,
+          zoom: 12,
           center: myLatlng,
           scrollwheel: false, // we disable de scroll over the map, it is a really annoing when you scroll through page
           styles: [{
@@ -57,6 +58,17 @@
           position: myLatlng,
           title: 'Hello World!'
         })
+        
+        var kmlLayer = new google.maps.KmlLayer(src, {
+          suppressInfoWindows: true,
+          preserveViewport: false,
+          map: map
+        });
+        kmlLayer.addListener('click', function(event) {
+          var content = event.featureData.infoWindowHtml;
+          var testimonial = document.getElementById('capture');
+          testimonial.innerHTML = content;
+        });
 
         // To add the marker to the map, call setMap();
         marker.setMap(map)
