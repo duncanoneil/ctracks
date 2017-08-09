@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="032bc40b-e9f2-492d-887c-beb4bd093ce3" name="Default" comment="router setup">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stylus/main.styl" afterPath="$PROJECT_DIR$/src/stylus/main.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/front/News.vue" afterPath="$PROJECT_DIR$/src/components/pages/front/News.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,11 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.styl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stylus/main.styl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="News.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/pages/front/News.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -136,10 +145,10 @@
         <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/components/pages/Front.vue" />
-        <option value="$PROJECT_DIR$/src/components/pages/front/News.vue" />
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/components/pages/map/Map.vue" />
         <option value="$PROJECT_DIR$/src/stylus/main.styl" />
+        <option value="$PROJECT_DIR$/src/components/pages/front/News.vue" />
       </list>
     </option>
   </component>
@@ -201,6 +210,32 @@
             <path>
               <item name="ctracks" type="b2602c69:ProjectViewProjectNode" />
               <item name="ctracks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctracks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctracks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctracks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctracks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctracks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctracks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctracks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctracks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,12 +367,12 @@
       <workItem from="1502093715442" duration="11953000" />
       <workItem from="1502181704011" duration="3083000" />
       <workItem from="1502202847610" duration="1204000" />
-      <workItem from="1502290466267" duration="236000" />
+      <workItem from="1502290466267" duration="865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70062000" />
+    <option name="totallyTimeSpent" value="70691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1680" height="1002" extended-state="0" />
@@ -640,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/front/News.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="112" lean-forward="false" selection-start-line="36" selection-start-column="112" selection-end-line="36" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -661,6 +689,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -668,6 +697,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="76" column="7" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/front/News.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="31" />
           <folding />
         </state>
       </provider>
