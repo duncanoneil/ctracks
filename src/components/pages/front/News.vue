@@ -11,7 +11,7 @@
             <v-card>
               <v-card-media
                 :src="card.src"
-                height="200px"
+                height="150px"
               >          </v-card-media>
                 <v-card-title primary-title>
                   <div>

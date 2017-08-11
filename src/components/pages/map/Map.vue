@@ -7,7 +7,13 @@
     methods: {
       initMap (google) {
         var myLatlng = new google.maps.LatLng(55.922655, -4.744502)
-        var src = 'https://s3.eu-west-2.amazonaws.com/comtracks/Gourock+to+Inverkip+cycle.kmz';
+        var src = 'https://s3.eu-west-2.amazonaws.com/comtracks/Gourock+to+Inverkip+line.kmz';
+        var src1 = 'https://s3.eu-west-2.amazonaws.com/comtracks/Greenock+Cut+line.kmz';
+        var src2 = 'https://s3.eu-west-2.amazonaws.com/comtracks/Knapps+Loch+Kilmacolm+line.kmz';
+        var src3 = 'https://s3.eu-west-2.amazonaws.com/comtracks/Muirshiel+to+Kilmacolm+cycle.kmz';
+        var src4 = 'https://s3.eu-west-2.amazonaws.com/comtracks/Port+Glasgow+to+Langbank+line.kmz';
+
+
         var mapOptions = {
           zoom: 12,
           center: myLatlng,
@@ -55,23 +61,53 @@
         var map = new google.maps.Map(document.getElementById('map'), mapOptions)
 
         var marker = new google.maps.Marker({
-          position: myLatlng,
-          title: 'Hello World!'
         })
-        
+
         var kmlLayer = new google.maps.KmlLayer(src, {
           suppressInfoWindows: true,
-          preserveViewport: false,
+          preserveViewport: true,
           map: map
         });
+        marker.setMap(map)
+
         kmlLayer.addListener('click', function(event) {
           var content = event.featureData.infoWindowHtml;
           var testimonial = document.getElementById('capture');
           testimonial.innerHTML = content;
         });
 
+        var kmlLayer1 = new google.maps.KmlLayer(src1, {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
         // To add the marker to the map, call setMap();
         marker.setMap(map)
+
+        var kmlLayer1 = new google.maps.KmlLayer(src2, {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+        // To add the marker to the map, call setMap();
+        marker.setMap(map)
+
+        var kmlLayer1 = new google.maps.KmlLayer(src3, {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+        // To add the marker to the map, call setMap();
+        marker.setMap(map)
+
+        var kmlLayer1 = new google.maps.KmlLayer(src4, {
+          suppressInfoWindows: true,
+          preserveViewport: true,
+          map: map
+        });
+        // To add the marker to the map, call setMap();
+        marker.setMap(map)
+
       }
     },
     mounted () {
