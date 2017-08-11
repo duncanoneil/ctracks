@@ -1,17 +1,17 @@
 <template>
       <div>
         <app-frame></app-frame>
-        <app-news></app-news>
+        <app-activities></app-activities>
       </div>
 </template>
 
 <script>
   import Frame from './map/Frame.vue';
-  import News from './front/News.vue';
+  import Activities from './front/Activities.vue';
   export default {
     components: {
       'app-frame': Frame,
-      'app-news': News
+      'app-activities': Activities
     }
   }
 </script>

@@ -11,6 +11,8 @@
           <app-facebook></app-facebook>
         </v-flex>
       </v-layout>
+      <app-footer></app-footer>
+
     </v-container>
     </main>
 
@@ -20,11 +22,12 @@
 <script>
   import Header from './components/shared/Header.vue';
   import Facebook from './components/pages/facebook/Facebook.vue';
-
+  import Footer from './components/shared/Footer.vue';
   export default {
     components: {
       'app-header': Header,
-      'app-facebook':Facebook
+      'app-facebook':Facebook,
+      'app-footer': Footer
     }
   }
 </script>

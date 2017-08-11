@@ -52,14 +52,15 @@
         sideNav: false,
         menuItems: [
           { icon: 'live_help', title: 'About', link: '/about'},
-          { icon: 'contact_mail', title: 'Contact', link: '/contact'}
+          { icon: 'contact_mail', title: 'Contact', link: '/contact'},
+          { icon: 'comment', title: 'News', link: '/news'},
         ],
         drop_items: [
           { title: 'Bike Workshop', link: '/about'},
           { title: 'Guided Rides', link: '/contact'},
-          { title: 'Activities', link: '/activities'}
-        ],
-
+          { title: 'Activities', link: '/activities'},
+          { title: 'Steering Group', link: '/steering'}
+        ]
       }
     }
   }
