@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="map"></div>
-   
+    <p> {{ routes }} </p>
   </div>
 </template>
 <script>
@@ -11,26 +11,23 @@
     methods: {
       initMap (google) {
         var myLatlng = new google.maps.LatLng(55.922655, -4.744502)
-        let PGBTC = new google.maps.LatLng(55.926482, -4.676598)
-        var src = 'https://s3.eu-west-2.amazonaws.com/comtracks/traffic-free4.kml';
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: {lat: 55.922655, lng: -4.744502}
+        });
+        var bikeLayer = new google.maps.BicyclingLayer();
+        bikeLayer.setMap(map);
 
-        console.log(this.routes)
-
-        var mapOptions = {
-          zoom: 12,
-          center: myLatlng,
-          scrollwheel: true, // we disable de scroll over the map, it is a really annoing when you scroll through page
-
-        }
-        var map = new google.maps.Map(document.getElementById('map'), mapOptions)
+        var src = 'https://s3.eu-west-2.amazonaws.com/comtracks/Gourock+to+Inverkip+(7).kml';
         var kmlLayer = new google.maps.KmlLayer(src, {
           suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
-      
-      }
-    },
+        marker.setMap(map)
+
+        }
+      },
     mounted () {
       GoogleMapsLoader.KEY = 'AIzaSyAamVCoyQ4AuvBpxVRMs9P-HFkfPVQj0Kw'
       GoogleMapsLoader.load((google) => {

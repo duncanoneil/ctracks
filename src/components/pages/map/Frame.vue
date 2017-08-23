@@ -19,7 +19,7 @@
       </v-flex>
 
       <v-flex xs10>
-        <app-map></app-map>
+        <app-map :routes="routes" ></app-map>
       </v-flex>
     </v-layout>
   </v-container>
@@ -28,9 +28,12 @@
 
 <script>
   import Map from './Map.vue';
+  import TestMap from './Testmap.vue';
+
   export default {
     components: {
-      'app-map': Map
+      'app-map': Map,
+      'app-testmap': TestMap
     },
     data () {
       return {
@@ -42,7 +45,15 @@
         ex16: false,
         ex17: true,
         ex18: false,
-
+        modalContent: { 
+          placeholder: 'Whatever'
+        },
+        routes: [{
+          src: 'https://s3.eu-west-2.amazonaws.com/comtracks/Gourock+to+Inverkip+line.kmz', show: true
+        },{
+          src: 'https://s3.eu-west-2.amazonaws.com/comtracks/Greenock+Cut+line.kmz', show: true
+        }
+        ]
       }
     }
   }
