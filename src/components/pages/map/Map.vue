@@ -10,14 +10,14 @@
     props: ['routes'],
     methods: {
       initMap (google) {
-        var myLatlng = new google.maps.LatLng(55.922655, -4.744502)
+        var myLatlng = new google.maps.LatLng(55.915655, -4.744502)
         let PGBTC = new google.maps.LatLng(55.926482, -4.676598)
-        var src = 'https://s3.eu-west-2.amazonaws.com/comtracks/traffic-free4.kml';
+        var src = 'https://s3.eu-west-2.amazonaws.com/comtracks/traffic-free11.kml';
 
         console.log(this.routes)
 
         var mapOptions = {
-          zoom: 12,
+          zoom: 11,
           center: myLatlng,
           scrollwheel: true, // we disable de scroll over the map, it is a really annoing when you scroll through page
 
