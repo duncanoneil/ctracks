@@ -5,13 +5,13 @@
         <h3 class="headline black--text ">Routes</h3>
         <v-card class="elevation-0">
           <v-card-text>
-            <v-switch label="Traffic free" v-model="ex11" color="red"
+            <v-switch label="Traffic Free" v-model="ex11" color="red"
             ></v-switch>
-            <v-switch label="On road" v-model="ex13" color="indigo"
+            <v-switch label="On Road" v-model="ex13" color="indigo"
             ></v-switch>
-            <v-switch label="Mountain Biking" v-model="ex15" color="orange"
+            <v-switch label="Walking / MTB" v-model="ex15" color="yellow"
             ></v-switch>
-            <v-switch label="Walking" v-model="ex17" color="green"
+            <v-switch label="Recommended On Road" v-model="ex17" color="green"
             ></v-switch>
           </v-card-text>
         </v-card>

@@ -12,23 +12,42 @@
       initMap (google) {
         var myLatlng = new google.maps.LatLng(55.915655, -4.744502)
         let PGBTC = new google.maps.LatLng(55.926482, -4.676598)
-        var src = 'https://s3.eu-west-2.amazonaws.com/comtracks/traffic-free11.kml';
-
-        console.log(this.routes)
-
+       var onRoad = 'https://s3.eu-west-2.amazonaws.com/comtracks/on-road8.kml';
+       var src = 'https://s3.eu-west-2.amazonaws.com/comtracks/traffic-free11.kml';
+       var src2 = 'https://s3.eu-west-2.amazonaws.com/comtracks/walking-mountain-biking4.kml';
+       var src3 = 'https://s3.eu-west-2.amazonaws.com/comtracks/recommended.kml';
+       var src4 = 'https://s3.eu-west-2.amazonaws.com/comtracks/schools2.kml';
         var mapOptions = {
           zoom: 11,
           center: myLatlng,
           scrollwheel: true, // we disable de scroll over the map, it is a really annoing when you scroll through page
-
         }
         var map = new google.maps.Map(document.getElementById('map'), mapOptions)
+        var kmlLayer4 = new google.maps.KmlLayer(src4, {
+          suppressInfoWindows: false,
+          preserveViewport: true,
+          map: map
+        });
+        var kmlLayer3 = new google.maps.KmlLayer(src3, {
+          suppressInfoWindows: false,
+          preserveViewport: true,
+          map: map
+        });
+        var kmlLayer2 = new google.maps.KmlLayer(src2, {
+          suppressInfoWindows: false,
+          preserveViewport: true,
+          map: map
+        });
+        var onRoad = new google.maps.KmlLayer(onRoad, {
+          suppressInfoWindows: false,
+          preserveViewport: true,
+          map: map
+        });
         var kmlLayer = new google.maps.KmlLayer(src, {
           suppressInfoWindows: false,
           preserveViewport: true,
           map: map
         });
-      
       }
     },
     mounted () {

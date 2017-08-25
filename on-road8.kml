@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name> Traffic Free Routes</name>
+    <Placemark>
+      <name>Inverkip to Kip Marina</name>
+    <description>
+        <![CDATA[
+      <p>This is an on road part of the National Cycle Route 753</p>
+      <p><a href="https://www.inverclyde.gov.uk/planning-and-the-environment/outdoor-access-in-inverclyde/core-paths-network" target="_blank">Path 1A of Inverclyde Council's Core Path Network</p>
+            ]]>
+    </description>
+        <Style>
+            <LineStyle>
+            <color>#FFF00014</color>
+            <width>3</width>
+            </LineStyle>
+        </Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -4.869647,55.9092602,0
+          -4.8700333,55.9095008,0
+          -4.8703337,55.909591,0
+          -4.8709667,55.9097053,0
+          -4.8713851,55.9098977,0
+          -4.8725116,55.911383,0
+          -4.8732948,55.9115874,0
+          -4.8737991,55.912315,0
+          -4.8765671,55.9116836,0
+          -4.8769641,55.9117678,0
+          -4.8788846,55.9112627,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+        <Placemark>
+      <name>Lunderston Bay to Gourock</name>
+    <description>
+        <![CDATA[
+      <p>This is an on road part of the National Cycle Route 753</p>
+      <p><a href="https://www.inverclyde.gov.uk/planning-and-the-environment/outdoor-access-in-inverclyde/core-paths-network" target="_blank">Path 1D of Inverclyde Council's Core Path Network</p>
+            ]]>
+    </description>
+        <Style>
+            <LineStyle>
+            <color>#FFF00014</color>
+            <width>3</width>
+            </LineStyle>
+        </Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -4.8255515,55.9581258,0
+          -4.8233414,55.9596392,0
+          -4.8224187,55.9603959,0
+          -4.8215604,55.9609725,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+            <Placemark>
+      <name>Gourock to Greenock</name>
+    <description>
+        <![CDATA[
+      <p>This is an on road part of the National Cycle Route 75</p>
+      <p><a href="https://www.inverclyde.gov.uk/planning-and-the-environment/outdoor-access-in-inverclyde/core-paths-network" target="_blank">Path 1E of Inverclyde Council's Core Path Network</p>
+            ]]>
+    </description>
+        <Style>
+            <LineStyle>
+            <color>#FFF00014</color>
+            <width>3</width>
+            </LineStyle>
+        </Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -4.8145866,55.9599996,0
+          -4.8142004,55.9592068,0
+          -4.8140502,55.9586062,0
+          -4.8132992,55.9580897,0
+          -4.812634,55.9578134,0
+          -4.8112822,55.9572729,0
+          -4.8095012,55.9572128,0
+          -4.8088145,55.9569606,0
+          -4.807806,55.9571047,0
+          -4.8061109,55.957369,0
+          -4.8049951,55.9572489,0
+          -4.8046947,55.9569846,0
+          -4.8030639,55.9567323,0
+          -4.8026776,55.9566002,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+            <Placemark>
+      <name>The Harbours to Lady Octavia Park, Greenock</name>
+    <description>
+        <![CDATA[
+      <p>This is an on road part of the National Cycle Route 75</p>
+      <p><a href="https://www.inverclyde.gov.uk/planning-and-the-environment/outdoor-access-in-inverclyde/core-paths-network" target="_blank">Path 57A of Inverclyde Council's Core Path Network</p>
+            ]]>
+    </description>
+        <Style>
+            <LineStyle>
+            <color>#FFF00014</color>
+            <width>3</width>
+            </LineStyle>
+        </Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -4.7446132,55.9432521,0
+          -4.7443449,55.9429937,0
+          -4.7423279,55.9419302,0
+          -4.741931,55.9420564,0
+          -4.7400534,55.9423388,0
+          -4.7369635,55.9427894,0
+          -4.7367167,55.9427654,0
+          -4.7364914,55.9423328,0
+          -4.7362339,55.9423748,0
+          -4.7355473,55.9423148,0
+          -4.736073,55.9415937,0
+          -4.7361481,55.9413053,0
+          -4.7359121,55.9411251,0
+          -4.7351825,55.9406924,0
+          -4.7354829,55.9405422,0
+          -4.7366524,55.9402899,0
+          -4.7360086,55.9392864,0
+          -4.7354078,55.9394066,0
+          -4.735043,55.9388297,0
+          -4.7348714,55.9384692,0
+          -4.735086,55.9380485,0
+          -4.7342277,55.9378562,0
+          -4.7344637,55.9374236,0
+          -4.733777,55.9370871,0
+          -4.7339272,55.9368587,0
+          -4.7329187,55.9358131,0
+          -4.7328973,55.9355607,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+            <Placemark>
+      <name>The Harbours to Lady Octavia Park, Greenock</name>
+    <description>
+        <![CDATA[
+      <p>This is an on road part of the National Cycle Route 75</p>
+      <p><a href="https://www.inverclyde.gov.uk/planning-and-the-environment/outdoor-access-in-inverclyde/core-paths-network" target="_blank">Path 57C of Inverclyde Council's Core Path Network</p>
+            ]]>
+    </description>
+        <Style>
+            <LineStyle>
+            <color>#FFF00014</color>
+            <width>3</width>
+            </LineStyle>
+        </Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -4.667623,55.9242492,0
+          -4.6683097,55.9238645,0
+          -4.6683097,55.923612,0
+          -4.668417,55.9234437,0
+          -4.6681595,55.9233355,0
+          -4.6698761,55.9220129,0
+          -4.6700263,55.9217003,0
+          -4.6697903,55.9214478,0
+          -4.667387,55.9203296,0
+          -4.6675158,55.9202455,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+  </Document>
+</kml>

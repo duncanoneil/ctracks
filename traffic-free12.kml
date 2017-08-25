@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name> National Cycle Route 753 Traffic Free</name>
+    <name> Traffic Free Routes</name>
     <Placemark>
       <name>Ardgowan Estate</name>
     <description>
@@ -12,7 +12,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -45,7 +45,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -79,7 +79,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -122,7 +122,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -158,7 +158,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -232,7 +232,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -322,7 +322,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -347,7 +347,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -401,7 +401,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -439,7 +439,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -483,7 +483,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -518,7 +518,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -550,7 +550,7 @@
     </description>
         <Style>
             <LineStyle>
-            <color>501400FF</color>
+            <color>#ff0000ff</color>
             <width>3</width>
             </LineStyle>
         </Style>
@@ -578,6 +578,38 @@
           -4.64903,55.9319188,0
           -4.6481609,55.9317264,0
           -4.6450174,55.9309211,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+        <Placemark>
+            <name> NCR75 to Boglestone roundabout,
+ Port Glasgow </name>
+    <description>
+        <![CDATA[
+      <p>This is a traffic free part of the National Cycle Route 75</p>
+      <p><a href="https://www.inverclyde.gov.uk/planning-and-the-environment/outdoor-access-in-inverclyde/core-paths-network" target="_blank">Path 1L of Inverclyde Council's Core Path Network</p>
+            ]]>
+    </description>
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>3</width>
+  </LineStyle> 
+ </Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -4.6681917,55.9256197,0
+          -4.6673763,55.9254394,0
+          -4.6668613,55.9253492,0
+          -4.6664214,55.925247,0
+          -4.6659386,55.9250547,0
+          -4.6657777,55.9249465,0
+          -4.665488,55.9247301,0
+          -4.6652842,55.9245918,0
+          -4.6651232,55.9245738,0
+          -4.6649516,55.9245197,0
         </coordinates>
       </LineString>
     </Placemark>
