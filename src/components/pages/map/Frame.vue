@@ -5,26 +5,23 @@
         <h3 class="headline black--text ">Routes</h3>
         <v-card class="elevation-0">
           <v-card-text>
-            <v-switch label="Traffic Free" v-model="routes.ex1" color="red"
+            <v-switch label="Traffic Free" v-model="kmlLayers[0].show" color="red"
             ></v-switch>
-            <v-switch label="On Road" v-model="ex13" color="indigo"
+            <v-switch label="On Road" v-model="kmlLayers[1].show" color="indigo"
             ></v-switch>
-            <v-switch label="Walking / MTB" v-model="ex15" color="yellow"
+            <v-switch label="Walking / MTB" v-model="kmlLayers[2].show" color="yellow"
             ></v-switch>
-            <v-switch label="Recommended On Road" v-model="ex17" color="green"
+            <v-switch label="Recommended On Road" v-model="kmlLayers[3].show" color="green"
             ></v-switch>
-           <v-switch label="Schools" v-model="ex17" color="black"
+           <v-switch label="Schools" v-model="kmlLayers[4].show" color="black"
             ></v-switch>
-           <v-switch label="Community" v-model="ex17" color="purple darken-1"
+           <v-switch label="Community" v-model="kmlLayers[5].show" color="purple darken-1"
             ></v-switch>
-
           </v-card-text>
         </v-card>
-
       </v-flex>
-
       <v-flex xs10>
-        <app-map :routes="routes" ></app-map>
+        <app-map :kmlLayers="kmlLayers" ></app-map>
       </v-flex>
     </v-layout>
   </v-container>
@@ -42,21 +39,24 @@
     },
     data () {
       return {
-        ex11: true,
-        ex12: false,
-        ex13: true,
-        ex14: false,
-        ex15: true,
-        ex16: false,
-        ex17: true,
-        ex18: false,
-        routes: { 
-          ex1: true
+        kmlLayers: [
+        { 
+          show: true
         },
-        routes1: [{
-          src: 'https://s3.eu-west-2.amazonaws.com/comtracks/Gourock+to+Inverkip+line.kmz', show: true
-        },{
-          src: 'https://s3.eu-west-2.amazonaws.com/comtracks/Greenock+Cut+line.kmz', show: true
+        { 
+          show: true
+        },
+        { 
+          show: true
+        },
+        { 
+          show: true
+        },
+        { 
+          show: true
+        },
+        { 
+          show: true
         }
         ]
       }
