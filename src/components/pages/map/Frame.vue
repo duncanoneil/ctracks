@@ -5,7 +5,7 @@
         <h3 class="headline black--text ">Routes</h3>
         <v-card class="elevation-0">
           <v-card-text>
-            <v-switch label="Traffic Free" v-model="ex11" color="red"
+            <v-switch label="Traffic Free" v-model="routes.ex1" color="red"
             ></v-switch>
             <v-switch label="On Road" v-model="ex13" color="indigo"
             ></v-switch>
@@ -13,6 +13,11 @@
             ></v-switch>
             <v-switch label="Recommended On Road" v-model="ex17" color="green"
             ></v-switch>
+           <v-switch label="Schools" v-model="ex17" color="black"
+            ></v-switch>
+           <v-switch label="Community" v-model="ex17" color="purple darken-1"
+            ></v-switch>
+
           </v-card-text>
         </v-card>
 
@@ -45,10 +50,10 @@
         ex16: false,
         ex17: true,
         ex18: false,
-        modalContent: { 
-          placeholder: 'Whatever'
+        routes: { 
+          ex1: true
         },
-        routes: [{
+        routes1: [{
           src: 'https://s3.eu-west-2.amazonaws.com/comtracks/Gourock+to+Inverkip+line.kmz', show: true
         },{
           src: 'https://s3.eu-west-2.amazonaws.com/comtracks/Greenock+Cut+line.kmz', show: true

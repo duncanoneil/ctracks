@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+   <Style id="randomColorIcon">
+      <IconStyle>
+         <color>ff00ff00</color>
+         <colorMode>random</colorMode>
+         <scale>0.6</scale>
+         <Icon>
+            <href>https://s3.eu-west-2.amazonaws.com/comtracks/high-school-icon-blue.png</href>
+         </Icon>
+      </IconStyle>
+   </Style>
+      <Style id="primary">
+      <IconStyle>
+         <color>ff00ff00</color>
+         <colorMode>random</colorMode>
+         <scale>0.6</scale>
+         <Icon>
+            <href>https://s3.eu-west-2.amazonaws.com/comtracks/high-school-icon-png-8.png.png</href>
+         </Icon>
+      </IconStyle>
+   </Style>
+  <Placemark>
+    <name>Port Glasgow Community Campus</name>
+    <styleUrl>#randomColorIcon</styleUrl>
+    <description>
+    <p><a href="http://portglasgow.inverclyde.sch.uk/">Port Glasgow High School</a></p>
+    <p><a href="http://st-stephens.inverclyde.sch.uk/">St. Stephen's High School</a></p>
+    <p><a href="http://craigmarloch.inverclyde.sch.uk/">Craigmarloch School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.653282,55.920169,0</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name>Clydeview Academy</name>
+    <styleUrl>#randomColorIcon</styleUrl>
+    <description>
+    <p><a href="http://clydeviewacademy.inverclyde.sch.uk/">Clydeview Academy</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.801706,55.951589,0</coordinates>
+    </Point>
+  </Placemark>
+      <Placemark>
+    <name>Inverclyde Academy</name>
+    <styleUrl>#randomColorIcon</styleUrl>
+    <description>
+    <p><a href="http://inverclydeacademy.inverclyde.sch.uk/">Inverclyde Academy</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.811000,55.939661,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lomond View Academy</name>
+    <styleUrl>#randomColorIcon</styleUrl>
+    <description>
+    <p><a href="http://inverclydeacademy.inverclyde.sch.uk/">Lomond View Academy</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.747217,55.940337,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St. Columba's High School</name>
+    <styleUrl>#randomColorIcon</styleUrl>
+    <description>
+    <p><a href="http://st-columbashigh.inverclyde.sch.uk/">St. Columba's High School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.820668,55.954036,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Aileymill Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://aileymillprimary.inverclyde.sch.uk/">Aileymill Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.815732,55.940384,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>All Saints Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://allsaintsprimary.inverclyde.sch.uk/">All Saints Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.738142,55.934760,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ardgowan Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://ardgowan.inverclyde.sch.uk/">Ardgowan Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.773924,55.950931,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gourock Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://gourock-pri.inverclyde.sch.uk/">Gourock Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.813368,55.956357,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kilmacolm Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://kilmacolm.inverclyde.sch.uk/">Kilmacolm Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.633292,55.890329,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Inverkip Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://inverkip.inverclyde.sch.uk/">Inverkip Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.869349,55.907860,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>King&#39;s Oak Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://kingsoakprimary.inverclyde.sch.uk/">King&#39;s Oak Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.731638,55.939106,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lady Alice Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://ladyalice.inverclyde.sch.uk/">Lady Alice Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.786927,55.941474,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Moorfoot Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://moorfoot.inverclyde.sch.uk/">Moorfoot Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.813120,55.943069,0</coordinates>
+    </Point>
+  </Placemark>
+<Placemark>
+    <name>Newark Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://newarkprimary.inverclyde.sch.uk/">Newark Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.664261,55.927121,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St. Andrew&#39;s Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://st-andrews.inverclyde.sch.uk/">St. Andrew&#39;s Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.814324,55.944811,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St Francis&#39; Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://st-francis.inverclyde.sch.uk">St Francis&#39; Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.658316,55.921610,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St John&#39;s Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://st-johns.inverclyde.sch.uk/">St John&#39;s Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.700792,55.935033,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St Joseph&#39;s Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://st-josephs.inverclyde.sch.uk/">St Joseph&#39;s Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.798927,55.944674,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St Mary&#39;s Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://st-marys.inverclyde.sch.uk/">St Mary&#39;s Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.765606,55.952396,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St Michael&#39;s Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://st-michaels.inverclyde.sch.uk/">St Michael&#39;s Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.666014,55.927961,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St Ninian&#39;s Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://st-ninians.inverclyde.sch.uk/">St Ninian&#39;s Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.822142,55.950897,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St. Patrick&#39;s Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://st-patricks.inverclyde.sch.uk/">St. Patrick&#39;s Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.768587,55.942110,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St. Patrick&#39;s Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://st-patricks.inverclyde.sch.uk/">St. Patrick&#39;s Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.768587,55.942110,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wemyss Bay Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://wemyssbay.inverclyde.sch.uk/">Wemyss Bay Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.889084,55.891068,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Whinhill Primary School</name>
+    <styleUrl>#primary</styleUrl>
+    <description>
+    <p><a href="http://whinhill.inverclyde.sch.uk/">Whinhill Primary School</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.773558,55.937693,0</coordinates>
+    </Point>
+  </Placemark>
+
+</Document>
+</kml>

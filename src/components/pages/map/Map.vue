@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="map"></div>
-   
+   {{ routes }}
   </div>
 </template>
 <script>
@@ -12,11 +12,13 @@
       initMap (google) {
         var myLatlng = new google.maps.LatLng(55.915655, -4.744502)
         let PGBTC = new google.maps.LatLng(55.926482, -4.676598)
-       var onRoad = 'https://s3.eu-west-2.amazonaws.com/comtracks/on-road8.kml';
-       var src = 'https://s3.eu-west-2.amazonaws.com/comtracks/traffic-free11.kml';
+       var onRoad = 'https://s3.eu-west-2.amazonaws.com/comtracks/on-road9.kml';
+       var trafficFree = 'https://s3.eu-west-2.amazonaws.com/comtracks/traffic-free13.kml';
        var src2 = 'https://s3.eu-west-2.amazonaws.com/comtracks/walking-mountain-biking4.kml';
-       var src3 = 'https://s3.eu-west-2.amazonaws.com/comtracks/recommended.kml';
-       var src4 = 'https://s3.eu-west-2.amazonaws.com/comtracks/schools2.kml';
+       var src3 = 'https://s3.eu-west-2.amazonaws.com/comtracks/recommended1.kml';
+       var src4 = 'https://s3.eu-west-2.amazonaws.com/comtracks/schools19.kml';
+       var src5 = 'https://s3.eu-west-2.amazonaws.com/comtracks/community3.kml';
+
         var mapOptions = {
           zoom: 11,
           center: myLatlng,
@@ -43,7 +45,13 @@
           preserveViewport: true,
           map: map
         });
-        var kmlLayer = new google.maps.KmlLayer(src, {
+        if(this.routes.ex1 == true){
+        var kmlLayer = new google.maps.KmlLayer(trafficFree, {
+          suppressInfoWindows: false,
+          preserveViewport: true,
+          map: map
+        });}
+        var Community = new google.maps.KmlLayer(src5, {
           suppressInfoWindows: false,
           preserveViewport: true,
           map: map

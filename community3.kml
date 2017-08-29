@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+   <Style id="randomColorIcon">
+      <IconStyle>
+         <color>ff00ff00</color>
+         <colorMode>random</colorMode>
+         <scale>1</scale>
+         <Icon>
+            <href>https://s3.eu-west-2.amazonaws.com/comtracks/noun_1100330_cc.png</href>
+         </Icon>
+      </IconStyle>
+   </Style>
+  <Placemark>
+    <name>Branchton Community Centre</name>
+    <styleUrl>#randomColorIcon</styleUrl>
+    <description>
+    <p><a href="https://www.facebook.com/BranchtonCC/">Branchton Community Centre</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.807812,55.938170,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Auchmountain Community Resource Centre</name>
+    <styleUrl>#randomColorIcon</styleUrl>
+    <description>
+    <p><a href="https://www.facebook.com/pages/Auchmountain-Resource-Centre/126498290744944">Auchmountain Community Resource Centre</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.739674,55.935561,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Craigend Centre</name>
+    <styleUrl>#randomColorIcon</styleUrl>
+    <description>
+    <p><a href="https://www.facebook.com/Craigend-Centre-109390375788968/">Craigend Centre</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.725297,55.939709,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Youth Connections</name>
+    <styleUrl>#randomColorIcon</styleUrl>
+    <description>
+    <p><a href="http://youthconnections.co.uk/">Youth Connections</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.822935,55.941663,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parklea 'Branching Out'</name>
+    <styleUrl>#randomColorIcon</styleUrl>
+    <description>
+    <p><a href="http://www.parkleaassociation.org.uk/index.html">Parklea 'Branching Out'</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.642535,55.930196,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Belville Community Garden</name>
+    <styleUrl>#randomColorIcon</styleUrl>
+    <description>
+    <p><a href="http://www.belvillecommunitygarden.co.uk/">Belville Community Garden</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.739188,55.941898,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>R.E.A.C.H for Autism</name>
+    <styleUrl>#randomColorIcon</styleUrl>
+    <description>
+    <p><a href="https://www.facebook.com/reachforautism/">R.E.A.C.H for Autism</a></p>
+    </description>
+    <Point>
+      <coordinates>-4.731963,55.943057,0</coordinates>
+    </Point>
+  </Placemark>
+
+</Document>
+</kml>
