@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="map"></div>
-     <div class="kml"> {{ kmlLayers }} </div>
+     <div > {{ kmlLayers }} </div>
   </div>
 
 </template>
