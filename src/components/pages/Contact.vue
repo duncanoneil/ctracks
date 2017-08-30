@@ -1,17 +1,36 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div>
+      <h1> WHAT THE FUCK </h1>
+      <button v-on:click="sendTheMail">Send the Mail</button>
   </div>
 </template>
 
 <script>
+  import { mandrill_api } from './config.js'
+  console.log(mandrill_api); 
+
   export default {
-    name: 'hello',
-    data () {
-      return {
-        msg: 'Contact'
+  methods: {
+    sendTheMail() {
+              const params = {
+            "message": {
+                "from_email":"kieran@communitytracks.net",
+                "to":[{"email":"kieran.wild@the-trust.org.uk"}],
+                "subject": "Sending a text email from the Mandrill API",
+                "text": "I'm learning the Mandrill API at Codecademy."
+            }
+        }
+
+      // Send the email!
+      var m = new mandrill.Mandrill(mandrill_api);
+          m.messages.send(params, function(res) {
+              console.log(res);
+          }, function(err) {
+              console.log(err);
+          });
       }
-    }
+  }
+  
   }
 </script>
 
