@@ -96,7 +96,7 @@
     height: 500px;
   }
   .kml {
-    color:white;
+    color:#fff;
   }
 
 </style>
