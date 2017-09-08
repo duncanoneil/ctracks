@@ -1,22 +1,20 @@
 <template>
-  <v-footer>
-
-
-    <div id="footer">
-      <img id="footer-img" src="https://s3.eu-west-2.amazonaws.com/comtracks/photos/combined_logos.jpg" >
-    </div>
+  <v-footer class="white pt-10 text-xs-center">
+    <v-container class="ma-0">
+      <v-layout row wrap>
+        <v-flex md4 xs12>
+          <img :src="require('./footer-greener-scotland.png')" class="mb-5" />
+        </v-flex>
+        <v-flex md4 xs12>
+          <img :src="require('./footer-climate-challenge-fund.png')" class="mb-5" />
+        </v-flex>
+        <v-flex md4 xs12>
+          <img :src="require('./footer-inverclyde-trust.png')" class="mb-5" />
+        </v-flex>
+      </v-layout>
+    </v-container>
   </v-footer>
 </template>
 
 <style scoped>
-  #footer{
-    display: flex;
-    justify-content: center;
-    padding-top: 150px;
-  }
-  footer-img{
-    display: flex;
-    justify-content: center;
-
-  }
 </style>

@@ -7,6 +7,7 @@
           <v-container fluid grid-list-md class="grey lighten-4">
             <v-layout row wrap>
               <v-flex
+                md4 xs12
                 v-bind="{ [`xs${card.flex}`]: true }"
                 v-for="card in cards"
                 :key="card.title"
