@@ -51,6 +51,7 @@
       return {
         sideNav: false,
         menuItems: [
+          { icon: 'home', title: 'Home', link: '/'},
           { icon: 'live_help', title: 'About', link: '/about'},
           { icon: 'contact_mail', title: 'Contact', link: '/contact'},
           { icon: 'comment', title: 'News', link: '/news'},
