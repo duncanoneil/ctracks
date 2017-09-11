@@ -18,7 +18,7 @@
       @click.stop="sideNav = !sideNav"
       class="hidden-sm-and-up"></v-toolbar-side-icon>
     <v-toolbar-title>
-      <router-link to="/" tag="span" style="cursor: pointer"><img hidden-md-and-down :src="require('./ct_logo.png')" /></router-link>
+      <router-link to="/" tag="span" style="cursor: pointer"><img hidden-md-and-down :src="require('./ct_logo_m.png')" /></router-link>
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-xs-only">
@@ -53,12 +53,9 @@
         menuItems: [
           { icon: 'home', title: 'Home', link: '/'},
           { icon: 'live_help', title: 'About', link: '/about'},
-          { icon: 'contact_mail', title: 'Contact', link: '/contact'},
-          { icon: 'comment', title: 'News', link: '/news'},
-        ],
+          { icon: 'contact_mail', title: 'Contact', link: '/contact'}        ],
         drop_items: [
-          { title: 'Bike Workshop', link: '/about'},
-          { title: 'Guided Rides', link: '/contact'},
+          { title: 'Bike Workshop', link: '/bikes'},
           { title: 'Activities', link: '/activities'},
           { title: 'Steering Group', link: '/steering'}
         ]

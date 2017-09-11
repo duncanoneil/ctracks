@@ -1,56 +1,70 @@
 <template>
   <div>
-      <h1> WHAT THE FUCK </h1>
-      <button v-on:click="sendTheMail">Send the Mail</button>
+    <h3 class="headline black--text ">Contacts Us</h3>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Stewart Philips</td>
+        <td>Project Coordinator</td>
+        <td>01475 553385</td>
+        <td>{{ email[0] }}</a></td>
+      </tr>
+      <tr>
+        <td>Kieran Wild</td>
+        <td>Active Travel Officer</td>
+        <td>01475 553386</td>
+        <td>{{ email[1] }}</td>
+      </tr>
+      <tr>
+        <td>Ian Crighton</td>
+        <td>Bicycle Mechanic</td>
+        <td>01475 553387</td>
+        <td>{{ email[2] }}</td>
+      </tr>
+       <tr>
+        <td>Scott Deveney</td>
+        <td>Admin Assistant</td>
+        <td>01475 553384</td>
+        <td>{{ email[3] }}</td>
+      </tr>
+    </table>
   </div>
 </template>
 
 <script>
   import { mandrill_api } from './config.js'
-  console.log(mandrill_api); 
+  import { email } from './config.js'
+  console.log(email)
 
   export default {
-  methods: {
-    sendTheMail() {
-              const params = {
-            "message": {
-                "from_email":"kieran@communitytracks.net",
-                "to":[{"email":"kieran.wild@the-trust.org.uk"}],
-                "subject": "Sending a text email from the Mandrill API",
-                "text": "I'm learning the Mandrill API at Codecademy."
-            }
-        }
-
-      // Send the email!
-      var m = new mandrill.Mandrill(mandrill_api);
-          m.messages.send(params, function(res) {
-              console.log(res);
-          }, function(err) {
-              console.log(err);
-          });
+    data() {
+      return{
+        email: email
       }
-  }
-  
+    }
   }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  h1, h2 {
-    font-weight: normal;
-  }
+table {
+    font-family:arial, verdana, sans-serif; /* ADDED */
+    border-collapse: collapse;
+    width: 100%;
+}
 
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
 
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-  a {
-    color: #42b983;
-  }
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 </style>

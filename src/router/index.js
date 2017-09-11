@@ -6,6 +6,7 @@ import Contact from '@/components/pages/Contact'
 import Activities from '@/components/pages/Activities'
 import News from '@/components/pages/News'
 import Steering from '@/components/pages/Steering'
+import Bikes from '@/components/pages/Bikes'
 
 Vue.use(Router)
 
@@ -41,6 +42,11 @@ export default new Router({
       path: '/steering',
       name: 'Streering',
       component: Steering
+    },
+    {
+      path: '/bikes',
+      name: 'Bikes',
+      component: Bikes
     }
   ]
 })

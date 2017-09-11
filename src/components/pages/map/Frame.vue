@@ -28,7 +28,7 @@
           </v-card-text>
         </v-card>
       </v-flex>
-      <v-flex md10 sm12>
+      <v-flex md10 sm12 xs12>
         <app-map :kmlLayers="kmlLayers" ></app-map>
       </v-flex>
     </v-layout>
@@ -38,13 +38,11 @@
 
 <script>
   import Map from './Map.vue';
-  import TestMap from './Testmap.vue';
 
   export default {
     components: {
-      'app-map': Map,
-      'app-testmap': TestMap
-    },
+      'app-map': Map
+       },
     data () {
       return {
         kmlLayers: [

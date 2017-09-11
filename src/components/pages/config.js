@@ -1,1 +1,2 @@
-export var mandrill_api = '-hcx3V1MNEn6Na91DB8BZA';
+
+export var email = ["stewart.phillips@the-trust.org.uk","kieran.wild@the-trust.org.uk", "ian@newarkenterprises.org.uk", "scott.deveney@the-trust.org.uk"]

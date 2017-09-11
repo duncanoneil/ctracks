@@ -21,7 +21,7 @@
        var community = 'https://s3.eu-west-2.amazonaws.com/comtracks/community3.kml';
 
         var mapOptions = {
-          zoom: 11,
+          zoom: 12,
           center: myLatlng,
           scrollwheel: true, // we disable de scroll over the map, it is a really annoing when you scroll through page
         }
@@ -30,41 +30,41 @@
           if(this.kmlLayers[0].show == true){
           var trafficFree = new google.maps.KmlLayer(trafficFree, {
             suppressInfoWindows: false,
-            preserveViewport: false,
+            preserveViewport: true,
             map: map
           });}
          if(this.kmlLayers[1].show == true){
           var onRoad = new google.maps.KmlLayer(onRoad, {
             suppressInfoWindows: false,
-            preserveViewport: false,
+            preserveViewport: true,
             map: map
            });
          }
          if(this.kmlLayers[2].show == true){
           var walkingMTB = new google.maps.KmlLayer(walkingMTB, {
             suppressInfoWindows: false,
-            preserveViewport: false,
+            preserveViewport: true,
             map: map
            });
           }
           if(this.kmlLayers[3].show == true){
            var recommended = new google.maps.KmlLayer(recommended, {
             suppressInfoWindows: false,
-            preserveViewport: false,
+            preserveViewport: true,
             map: map
            });
           }
           if(this.kmlLayers[4].show == true){
             var schools = new google.maps.KmlLayer(schools, {
               suppressInfoWindows: false,
-              preserveViewport: false,
+              preserveViewport: true,
               map: map
             });
           }
           if(this.kmlLayers[5].show == true){
             var community = new google.maps.KmlLayer(community, {
               suppressInfoWindows: false,
-              preserveViewport: false,
+              preserveViewport: true,
               map: map
             });
           }
