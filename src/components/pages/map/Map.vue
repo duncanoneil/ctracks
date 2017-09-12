@@ -18,7 +18,7 @@
        var walkingMTB = 'https://s3.eu-west-2.amazonaws.com/comtracks/walking-mountain-biking4.kml';
        var recommended = 'https://s3.eu-west-2.amazonaws.com/comtracks/recommended1.kml';
        var schools = 'https://s3.eu-west-2.amazonaws.com/comtracks/schools19.kml';
-       var community = 'https://s3.eu-west-2.amazonaws.com/comtracks/community3.kml';
+       var community = 'https://s3.eu-west-2.amazonaws.com/comtracks/community4.kml';
 
         var mapOptions = {
           zoom: 12,

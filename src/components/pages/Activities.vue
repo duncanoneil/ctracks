@@ -1,6 +1,6 @@
 <template>
     <div>
-    <h3 class="headline black--text ">Activities</h3>
+    <h3 class="headline black--text ma-3">Activities</h3>
   <v-container>
 
     <v-layout row wrap>

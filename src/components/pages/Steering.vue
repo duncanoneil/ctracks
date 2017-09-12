@@ -1,6 +1,6 @@
 <template>
     <div>
-    <h3 class="headline black--text ">Steering Group</h3>
+    <h3 class="headline black--text  ma-3">Steering Group</h3>
     <v-container grid-list-md >
       <v-layout row wrap>
         <v-flex xs12 sm12 md6>
