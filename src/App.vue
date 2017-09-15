@@ -46,6 +46,10 @@
 </style>
 
 <style>
+  @import '../node_modules/font-awesome/css/font-awesome.css'
+</style>
+
+<style>
   @media only screen and (max-width: 599px) {
     main > .container {
       padding: 0;
